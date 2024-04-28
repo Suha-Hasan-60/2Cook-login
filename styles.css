@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Cabin Sketch';
+    src: url('CabinSketch-Regular.woff2') format('woff2'),
+         url('CabinSketch-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Akaya Telivigala';
+    src: url('AkayaTelivigala-Regular.woff2') format('woff2'),
+         url('AkayaTelivigala-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin Sketch', sans-serif;
+    background-color: #E8D8D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.login-container {
+    background: #BEABA7;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%;
+}
+
+.login-container h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="tel"],
+input[type="text"] {
+    font-family: 'Cabin Sketch', sans-serif;
+    width: calc(100% - 24px); /* Adjusted width to include padding */
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    font-family: 'Cabin Sketch', sans-serif;
+    width: calc(100% - 24px); /* Adjusted width to include padding */
+    padding: 12px;
+    background-color: #AA7C7A;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Added margin */
+}
+
+button:hover {
+    background-color: #ff8f8f;
+}
